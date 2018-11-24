@@ -52,8 +52,8 @@ public class TelaPrincipalController implements Initializable {
         FXMLLoader loader = new FXMLLoader(getClass().getResource("TelaCadastroProduto.fxml"));
         Stage stage = new Stage();
         Parent root = loader.load();
-        Scene scene = new Scene(root, 550, 400);
-        stage.setTitle("SincPedidos");
+        Scene scene = new Scene(root);
+        stage.setTitle("Cadastrar produto");
         stage.setScene(scene);
         stage.show();
         TelaCadastroProdutoController controller = loader.getController();
@@ -68,8 +68,8 @@ public class TelaPrincipalController implements Initializable {
         FXMLLoader loader = new FXMLLoader(getClass().getResource("TelaCadastroFuncionario.fxml"));
         Stage stage = new Stage();
         Parent root = loader.load();
-        Scene scene = new Scene(root, 550, 400);
-        stage.setTitle("SincPedidos");
+        Scene scene = new Scene(root);
+        stage.setTitle("Cadastrar funcionário");
         stage.setScene(scene);
         stage.show();
         Screen screen = Screen.getPrimary();
@@ -83,8 +83,8 @@ public class TelaPrincipalController implements Initializable {
         FXMLLoader loader = new FXMLLoader(getClass().getResource("TelaExibirProdutos.fxml"));
         Stage stage = new Stage();
         Parent root = loader.load();
-        Scene scene = new Scene(root, 600, 450);
-        stage.setTitle("SincPedidos");
+        Scene scene = new Scene(root);
+        stage.setTitle("Produtos");
         stage.setScene(scene);
         stage.show();
         Screen screen = Screen.getPrimary();
